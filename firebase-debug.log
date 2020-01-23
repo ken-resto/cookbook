@@ -1,0 +1,22 @@
+[debug] [2020-01-15T07:23:29.447Z] ----------------------------------------------------------------------
+[debug] [2020-01-15T07:23:29.449Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2020-01-15T07:23:29.449Z] CLI Version:   7.12.0
+[debug] [2020-01-15T07:23:29.449Z] Platform:      win32
+[debug] [2020-01-15T07:23:29.449Z] Node Version:  v12.13.1
+[debug] [2020-01-15T07:23:29.450Z] Time:          Wed Jan 15 2020 11:23:29 GMT+0400 (Gulf Standard Time)
+[debug] [2020-01-15T07:23:29.450Z] ----------------------------------------------------------------------
+[debug] [2020-01-15T07:23:29.450Z] 
+[debug] [2020-01-15T07:23:29.465Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-15T07:23:29.465Z] > authorizing via signed-in user
+[debug] [2020-01-15T07:23:29.466Z] [iam] checking project cookbook-dc1e1 for permissions ["firebase.projects.get"]
+[debug] [2020-01-15T07:23:29.467Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cookbook-dc1e1:testIamPermissions  
+
+[debug] [2020-01-15T07:23:31.191Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-15T07:23:31.193Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/cookbook-dc1e1  
+ 
+[debug] [2020-01-15T07:23:31.584Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-15T07:23:31.585Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/cookbook-dc1e1/webApps/-/config  
+ 
+[debug] [2020-01-15T07:23:32.383Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
